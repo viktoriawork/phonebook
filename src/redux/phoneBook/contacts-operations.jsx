@@ -11,7 +11,7 @@ import {
   getContactError,
 } from "./phoneBookActions";
 
-// axios.defaults.baseURL = "http://localhost:4040";
+axios.defaults.baseURL = "http://localhost:4040";
 
 export const addContact = (name, number) => (dispatch) => {
   const contact = {

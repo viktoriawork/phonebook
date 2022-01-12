@@ -4,6 +4,7 @@ import ContactListStyled from "./ContactListStyled";
 import { getVisibleContacts } from "../../redux/phoneBook/contacts-selectors";
 import {
   deleteContact,
+  // eslint-disable-next-line no-unused-vars
   getContacts,
 } from "../../redux/phoneBook/contacts-operations";
 
