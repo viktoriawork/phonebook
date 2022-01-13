@@ -11,8 +11,8 @@ import {
   getContactError,
 } from "./phoneBookActions";
 
-axios.defaults.baseURL = "http://localhost:4040";
-// axios.defaults.baseURL = "https://61de0e9af60e8f0017668bac.mockapi.io/contacts/:endpoint";
+// axios.defaults.baseURL = "http://localhost:4040";
+axios.defaults.baseURL = "https://61de0e9af60e8f0017668bac.mockapi.io/contacts/";
 
 export const addContact = (name, number) => (dispatch) => {
   const contact = {
