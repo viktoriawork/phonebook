@@ -24,7 +24,7 @@ class App extends Component {
         <Filter />
         <ContactList />
         {this.props.isLoadingContacts && <h2>Loading...</h2>}
-        {this.props.isError && <h2>Error, try again</h2>}
+        {/* {this.props.isError && <h2>Error, try again</h2>} */}
       </div>
     );
   }
